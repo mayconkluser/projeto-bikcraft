@@ -1,3 +1,11 @@
+.container {
+  max-width: 1200px;
+  padding: 0 20px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
 .botao {
   padding: 16px 32px;
   display: inline-block;
