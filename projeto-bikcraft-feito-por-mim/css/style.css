@@ -112,6 +112,7 @@ img {
 }
 /* ---------- */
 
+/* INTRO */
 .intro-bg {
   background: #000000;
   color: #ffffff;
@@ -121,6 +122,10 @@ img {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0 40px;
+  box-sizing: border-box;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 .intro-conteudo {
@@ -140,3 +145,29 @@ img {
   line-height: 1.5;
   color: #b2b2b2;
 }
+
+.intro h1 span {
+  color: #ffbb00;
+}
+
+.intro a {
+  padding: 16px 32px;
+  display: inline-block;
+  text-transform: uppercase;
+  color: #332200;
+  font-size: 18px;
+  line-height: 1.33;
+  font-weight: bold;
+  background: linear-gradient(#ffbb00, #f2a50c);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+}
+
+.intro a:hover {
+  background: linear-gradient(#ffb60d, #e59317);
+}
+/* ---------- */
