@@ -19,11 +19,22 @@
   -ms-border-radius: 4px;
   -o-border-radius: 4px;
   font: 600 1.125rem/1.35 "Poppins", sans-serif;
+  max-width: max-content;
 }
 
 .botao:hover {
   background: linear-gradient(#ffb60d, #e59317);
 }
+
+.botao.secundaria {
+  background: var(--cor-10);
+  color: var(--cor-2);
+}
+
+.botao.secundaria:hover {
+  background: var(--cor-9);
+}
+
 @media (max-width: 600px) {
   .botao {
     padding: 12px 16px;
