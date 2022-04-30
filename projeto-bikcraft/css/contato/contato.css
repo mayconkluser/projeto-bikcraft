@@ -14,15 +14,17 @@
 }
 
 .contato-dados {
-  background: var(--cor-12);
   border-radius: 5px 0 0 5px;
   -webkit-border-radius: 5px 0 0 5px;
   -moz-border-radius: 5px 0 0 5px;
   -ms-border-radius: 5px 0 0 5px;
   -o-border-radius: 5px 0 0 5px;
+  background: var(--cor-12) url("../../img/dec/bottom-left.svg") no-repeat
+    bottom 20px left 20px;
 }
 .contato-form {
-  background: var(--cor-0);
+  background: var(--cor-0) url("../../img/dec/bottom-right.svg") no-repeat
+    bottom 20px right 20px;
   border-radius: 0px 5px 5px 0px;
   -webkit-border-radius: 0px 5px 5px 0px;
   -moz-border-radius: 0px 5px 5px 0px;
@@ -71,6 +73,9 @@
 }
 
 @media (max-width: 800px) {
+  .contato-dados {
+    background: var(--cor-12);
+  }
   .contato {
     grid-template-columns: 1fr;
   }
