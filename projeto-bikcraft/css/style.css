@@ -1,15 +1,15 @@
-@import url(./global/global.css);
-@import url(./utilidades/tipografia.css);
-@import url(./utilidades/cores.css);
-
 /* GLOBAL */
+@import url(./global/global.css);
 @import url(./global/header.css);
 @import url(./global/footer.css);
 
 /* UTILIDADES */
+@import url(./utilidades/tipografia.css);
 @import url(./utilidades/componente.css);
+@import url(./utilidades/formulario.css);
 
 /* HOME */
+@import url(./utilidades/cores.css);
 @import url(./home/intro.css);
 @import url(./home/tecnologia.css);
 @import url(./home/parceiros.css);
@@ -30,3 +30,7 @@
 
 /* TERMOS */
 @import url(./termos/termos.css);
+
+/* CONTATO */
+@import url(./contato/contato.css);
+@import url(./contato/lojas.css);
