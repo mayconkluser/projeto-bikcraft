@@ -39,7 +39,7 @@ perguntas.forEach(eventosPerguntas);
 
 console.log(perguntas);
 
-// GALERIA DE BICICLETA
+// GALERIA DE BICICLETA -----------------------------------
 const galeria = document.querySelectorAll(".bicicleta-img img");
 const galeriaContainer = document.querySelector(".bicicleta-img");
 function trocarImg(event) {
@@ -55,3 +55,8 @@ function eventosGaleria(img) {
 }
 galeria.forEach(eventosGaleria);
 console.log(galeria, galeriaContainer);
+
+// ANIMAÇÃO -----------------------------------
+if (window.SimpleAnime) {
+  new SimpleAnime();
+}
